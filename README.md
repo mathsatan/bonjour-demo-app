@@ -1,5 +1,6 @@
 # Bonjour Demo
-The workspace contains two projects: a simple connection listener (BonjourServer) and a simple service browser (BonjourServer) that resolves Bonjour services and it's' IP addresses
+
+The workspace contains two projects: a simple connection listener (BonjourServer) and a simple service browser (BonjourClient) that resolves Bonjour services and their IP addresses.
 
 ## Installing ZeroConfig implementation (Avahi) on Raspberry Pi
 
@@ -27,7 +28,7 @@ Press `Ctrl+x` to exit, then press `y` to to save changes and return after confi
 Restart Avahi
 `sudo /etc/init.d/avahi-daemon restart`
 
-Download `demo.service` config file from GitHub using `wget` 
+Note: Also you can download `demo.service` (sample config file) from GitHub using `wget` 
 `wget https://raw.githubusercontent.com/mathsatan/bonjour-demo-app/main/demo.xml -O /etc/avahi/services/demo.service`
 
 Demo Screenshot:
