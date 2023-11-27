@@ -5,6 +5,7 @@
 	<key>NSBonjourServices</key>
 	<array>
 		<string>_demoapp._tcp</string>
+		<string>_afpovertcp._tcp</string>
 	</array>
 </dict>
 </plist>

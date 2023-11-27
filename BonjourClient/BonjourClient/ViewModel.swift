@@ -41,7 +41,7 @@ final class ViewModel: ObservableObject {
 private extension ViewModel {
     
     func map(service: NetService) -> ServiceInfo {
-        let ipAddresses = service.addresses?.compactMap { $0.toIP } ?? []
-        return .init(name: service.name, ipAddress: ipAddresses.first ?? "N/A", port: String(service.port))
+        let ipAddress = service.addresses?.compactMap({ $0.toIP }).first
+        return .init(name: service.name, ipAddress: ipAddress ?? "N/A", port: ipAddress == nil ? "" : String(service.port))
     }
 }

@@ -11,7 +11,7 @@ struct ContentView: View {
     
     @ObservedObject var viewModel: ViewModel
     
-    @State private var serviceType = "_demoapp._tcp"
+    @State private var serviceType = "_afpovertcp._tcp"
     @State private var netDomain = "local."
     
     var body: some View {
@@ -40,7 +40,7 @@ struct ContentView: View {
                         .opacity(self.viewModel.isRunning ? 1.0 : 0.0)
                         .padding(.horizontal, 10.0)
                 }
-                .padding(12)
+                .padding(12.0)
                 
                 List {
                     ForEach(viewModel.items, id: \.self) { item in
@@ -51,9 +51,8 @@ struct ContentView: View {
                     }
                 }
             }
-            .padding(.horizontal)
+            .padding(10.0)
         }
-        .padding()
     }
 }
 

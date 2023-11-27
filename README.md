@@ -29,3 +29,7 @@ Restart Avahi
 
 Download `demo.service` config file from GitHub using `wget` 
 `wget https://raw.githubusercontent.com/mathsatan/bonjour-demo-app/main/demo.xml -O /etc/avahi/services/demo.service`
+
+Demo Screenshot:
+
+![Demo Screenshot](screenshot1.png)
