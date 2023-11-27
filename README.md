@@ -22,9 +22,7 @@ Then run
 
 `sudo apt-get install avahi-daemon`.
 
-Next, make sure it runs at startup, enter:
-
-`sudo update-rc.d avahi-daemon defaults`.
+Next, make sure it runs at startup.
 
 ## Configuring Avahi
 
