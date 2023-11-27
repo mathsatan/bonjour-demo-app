@@ -28,4 +28,4 @@ Restart Avahi
 `sudo /etc/init.d/avahi-daemon restart`
 
 Download `demo.service` config file from GitHub using `wget` 
-`wget https://raw.githubusercontent.com/<path> -O /etc/avahi/services/demo.service`
+`wget https://raw.githubusercontent.com/mathsatan/bonjour-demo-app/main/demo.xml -O /etc/avahi/services/demo.service`
