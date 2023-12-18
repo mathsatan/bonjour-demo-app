@@ -14,6 +14,9 @@ struct ContentView: View {
     var body: some View {
         VStack {
             Text("Bonjour Server Demo")
+            Button("Stop") {
+                viewModel.stop()
+            }
         }
         .padding()
         .onAppear {

@@ -11,7 +11,7 @@ struct ContentView: View {
     
     @ObservedObject var viewModel: ViewModel
     
-    @State private var serviceType = "_afpovertcp._tcp"
+    @State private var serviceType = "_majordom-hub._tcp"
     @State private var netDomain = "local."
     
     var body: some View {
