@@ -4,9 +4,10 @@
 <dict>
 	<key>NSBonjourServices</key>
 	<array>
-		<string>_majordom-hub._tcp
-</string>
+		<string>_majordom-hub._tcp</string>
 		<string>_demoapp._tcp</string>
 	</array>
+    <key>NSLocalNetworkUsageDescription</key>
+    <string>Local network access is needed for tests</string>
 </dict>
 </plist>
